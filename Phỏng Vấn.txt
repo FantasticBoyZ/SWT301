@@ -1,0 +1,21 @@
+group by là truy vấn các dữ liệu đồng nhất theo nhóm và thường đi với các aggregate funtion
+where là điều kiện của bảng 
+having là điều kiện của group by
+procedure là một khối lệnh khi mà thực hiện execute nó thì nó sẽ được chạy
+procedure là giống gọi hàm còn câu lệnh thường giống trong main
+trigger là các thao tác server thực hiện khi bắt được sự kiện thêm, sửa, xoá của người dùng
+session có thể truy cập từ tất cả các trang web còn attribute thì chỉ get được từ trang web nó truyền sang
+lấy thông tin từ người dùng nên dùng phương thức Post để không lộ thông tin người dùng
+- Có 4 cách xử lý giỏ hàng:
++ khi xử ly bằng session đăng xuất sẽ bị mất giỏ hàng
++ Khi xử lý bằng cookie sẽ bị giới hạn lưu trữ 4 byte
++ Khi xử lý trực tiếp trên database thì nhiều người dùng thao tác sẽ làm sai lệch thông tin trong DB
++ Dùng local storage lưu trên browser như 1 DB ảo và không bị giới hạn dữ liệu
+Khi có lỗi ngoại lệ thì dùng try catch
+Model có nhiệm vụ quản lý dữ liệu ứng dụng, biểu diễn thông tin của thực thể
+View là phần tương tác của người dùng và là nơi controller truyền dữ liệu lên
+Controller là hành vi ....
+hashmap lưu giá trị theo kiểu key và value
+- SO sánh object với equal(giá trị) và == (giá trị và địa chỉ)
+vd: a= new Integer(3) b = new Integer(3)
+- Constraint đảm bảo tính chính xác, tính toàn vẹn của dữ liệu.
